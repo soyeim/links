@@ -5,26 +5,63 @@
     body {
       padding-top: 40px;
       padding-bottom: 40px;
+      background-color: #faeee7;
     }
-  </style>
+    
+    .name {
+      color: #33272a;
+      color: #33272a;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .social-icons a {
+      color: #33272a;
+      text-decoration: none;
+      display: flex;
+      justify-content: space-around;
+    }
+    
+    .link {
+      background-color: #ff8ba7;
+      display: flex;
+      align-items: center
+    }
+    
+    .link a {
+      color: #594a4e;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+    }
 
-  <style>
-  .banner-image {
-    width: 128px;
-    height: 128px;
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .banner-image {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 128px;
+    }
+ 
+    .thumbnail {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
     object-fit: cover;
-    border-radius: 128px;
   }
-  </style>
 
-<style>
-  .thumbnail {
-  width: 48px;
-  height: 48px;
-  border-radius: 48px;
-  object-fit: cover;
-}
-</style>
+    .items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 640px;
+  }
+
+  </style>
 </head>
 
 <body>
@@ -39,23 +76,23 @@
   <div class="social-icons">
     <a href="https://github.com/soyeim" target="_blank">
       GitHub
-      <img src="/thumbnail/github-mark.png">
+      <img src="/thumbnail/github-mark.png" class="thumbnail">
     </a>
 
     <a href="https://www.linkedin.com/in/soyeim/" target="_blank">
       LinkedIn
-      <img src="/thumbnail/linkedin.png">
+      <img src="/thumbnail/linkedin.png" class="thumbnail">
     </a>
 
     <a href="https://www.instagram.com/_soyeim_/" target="_blank">
       Instagram
-      <img src="/thumbnail/instagram.png">
+      <img src="/thumbnail/instagram.png" class="thumbnail">
     </a>
 
   </div>
 
   <div class="link">
-    <img src="sheng-hu-jXNu9J4vy8k-unsplash.jpg">
+    <img src="sheng-hu-jXNu9J4vy8k-unsplash.jpg" class="thumbnail">
     <a target="_blank" href="https://www.worldwildlife.org/species/seals">Seals</a>
   </div>
 
